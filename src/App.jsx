@@ -1,4 +1,5 @@
 import Topbar from "./Components/Topbar/Topbar";
+import Menu from "./Components/Menu/Menu";
 import Intro from "./Components/Intro/Intro"
 import Portfolio from "./Components/Portfolio/Portfolio"
 import Works from "./Components/Works/Works"
@@ -13,7 +14,11 @@ function App() {
       <Topbar 
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
-        />
+      />
+      <Menu
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
+      />
         <div className="sections"> 
         <Intro/>
         <Portfolio />
