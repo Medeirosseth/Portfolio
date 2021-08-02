@@ -17,6 +17,9 @@ export default function Menu({menuOpen, setMenuOpen}) {
           <a href="#works">Music</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
+          <a href="#imnorotter">Art Menagerie</a>
+        </li>
+        <li onClick={()=>setMenuOpen(false)}>
           <a href="#contact">Contact</a>
         </li>
       </ul>
