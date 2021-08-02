@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 2;
+  transition: all 1s ease;
 
   .wrapper{
     padding: 10px 30px;
@@ -77,14 +78,14 @@
       span{
         &:first-child{
           background-color: white;
-          transform: rotate(45deg);
+          transform: rotate(50deg);
         }
         &:nth-child(2){
           opacity: 0;
         }
         &:last-child{
           background-color: white;
-          transform: rotate(-45deg)
+          transform: rotate(-50deg)
         }
       }
     }
