@@ -2,6 +2,7 @@ import Topbar from "./Components/Topbar/Topbar";
 import Menu from "./Components/Menu/Menu";
 import Intro from "./Components/Intro/Intro"
 import Portfolio from "./Components/Portfolio/Portfolio"
+import Resume from "./Components/Resume/Resume";
 import Works from "./Components/Works/Works"
 import Contact from "./Components/Contact/Contact"
 import  "./app.scss"
@@ -22,6 +23,7 @@ function App() {
         <div className="sections"> 
         <Intro/>
         <Portfolio />
+        <Resume />
         <Works />
         <Contact />
       </div>
