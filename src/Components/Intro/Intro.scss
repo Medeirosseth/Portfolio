@@ -33,15 +33,6 @@
       justify-content: center;
       margin-top: 235px;
       float: left;
-    
-
-      @include mobile{
-        align-items: flex-start;
-      }
-        img{
-          height: 90%;
-          z-index: 2;
-        }
     }
 
 
