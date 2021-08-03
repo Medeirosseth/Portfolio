@@ -7,14 +7,14 @@
 // #6BF178 green
 // 35A7FF blue
 
-//083D77
-//EBEBD3
-//F4D35E
-//F4D35E
-//F95738
+//#083D77
+//#EBEBD3
+//#F4D35E
+//#F4D35E
+//#F95738
 
 .intro{
-  background-color: white;
+  background-color: #083D77;
   display: flex;
 
 
@@ -60,12 +60,12 @@
       h1{
         font-size: 60px;
         margin: 10px 0;
-        color: #6BF178;
+        color: #EBEBD3;
       }
 
       h2{
         font-size: 35px;
-        color: #35A7FF;
+        color: #F4D35E;
       }
       h3{
         font-size: 30px;
@@ -74,7 +74,7 @@
 
         span{
           font-size: inherit;
-          color: grey;
+          color: #F4D35E;
         }
 
         .ityped-cursor{
