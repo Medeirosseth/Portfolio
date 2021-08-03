@@ -32,15 +32,7 @@
       justify-content: center;
       margin-top: 75px;
       float: left;
-    
-
-      @include mobile{
-        align-items: flex-start;
-      }
-        img{
-          height: 90%;
-          z-index: 2;
-        }
+  
     }
 
 
