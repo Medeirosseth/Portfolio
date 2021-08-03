@@ -1,5 +1,4 @@
 import React from 'react'
-import api
 import './imnorotter.scss'
 
 export default function Imnorotter() {
@@ -18,7 +17,7 @@ export default function Imnorotter() {
         <a href="#portfolio">
         
 
-        
+
         </a>
       </div>
     </div>
