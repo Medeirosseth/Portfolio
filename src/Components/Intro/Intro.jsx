@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Intro.scss"
-import { init } from 'ityped'
-import { useEffect, useRef } from 'react'
+// import { init } from 'ityped'
+// import { useEffect, useRef } from 'react'
 
 export default function Intro() {
-  const textRef = useRef();
+  // const textRef = useRef();
 
   // useEffect(() => {
   //   init(textRef.current, {
