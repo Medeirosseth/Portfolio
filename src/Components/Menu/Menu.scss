@@ -3,7 +3,7 @@
 .menu{
   width: 300px;
   height: 100vh;
-  background-color: lightyellow;
+  background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   right: -300px;
@@ -24,7 +24,7 @@
     list-style: none;
     font-size: 25px;
     font-weight: 300;
-    color: lightslategray;
+    color: lightslategrey;
     width: 60%;
 
     li{
