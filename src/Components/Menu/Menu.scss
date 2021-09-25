@@ -1,4 +1,4 @@
-@import '../../global.scss';
+// @import '../../global.scss';
 
 .menu{
   width: 300px;
@@ -14,9 +14,9 @@
   justify-content: center;
   transition: all 1s ease;
 
-  @include mobile{
-    width: 155px;
-  }
+  // @include mobile{
+  //   width: 155px;
+  // }
 
   &.active{
     right: 0;
