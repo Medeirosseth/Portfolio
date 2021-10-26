@@ -4,21 +4,20 @@ import './Intro.scss'
 export default  function Intro() {
   return (
     <div className="intro" id="intro">
-    <div className="left">
-      <div className="imgContainer">
-        <img src="assets/Seth.png" alt="Seth with Flamingos"></img>
+      <div className="left">
+        <div className="imgContainer">
+          <img src="assets/Seth.png" alt="Seth with Flamingos"></img>
+        </div>
       </div>
-    </div>
-    <div className="right">
-      <div className="wrapper">
-        <img src="assets/SethMedeiros2021.png" alt="Resume"></img>
-      </div>
+      <div className="right">
+        <div className="wrapper">
+          <img src="assets/SethMedeiros2021.png" alt="Resume"></img>
+        </div>
       </div>
     </div>
   )
 }
 
- 
 
 
 

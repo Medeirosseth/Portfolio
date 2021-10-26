@@ -11,7 +11,6 @@ export default function Menu({menuOpen, setMenuOpen}) {
           <a href="#portfolio">Portfolio</a>
         </li>
       </ul>
-      
     </div>
   )
 }

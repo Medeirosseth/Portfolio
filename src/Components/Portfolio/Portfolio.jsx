@@ -5,9 +5,6 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
-      <ul>
-        <li className="active">Featured</li>
-      </ul>
       <div className="container">
         <div className="item">
           <a href="https://github.com/Medeirosseth/MovieMatcher">
@@ -30,6 +27,20 @@ export default function Portfolio() {
             <h3>ReadyCheckGo</h3>
           </a>
         </div>
+        <div className="item">
+        <a href="https://github.com/Medeirosseth/Give-Me-SpaceX">
+          <img src="assets/SpaceX.png"
+          alt="github logo"></img>
+          <h3>Give Me SpaceX</h3>
+        </a>
+      </div>
+      <div className="item">
+      <a href="https://github.com/Medeirosseth/Picture-Library">
+        <img src="assets/Picture-Viewer.png"
+        alt="github logo"></img>
+        <h3>Image Finder</h3>
+      </a>
+    </div>
       </div>
     </div>
   )
