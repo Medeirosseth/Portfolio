@@ -19,12 +19,13 @@
     .imgContainer{
       width: 750px;
       height: 750px;
-      //border-radius: 50%;
+      // border-radius: 50%;
       // display: flex;
       // align-items: center;
       // float: right;
 
-      img{
+      .sethPicture{
+        border: 10px solid black;
         height: 90%;
 
         // @include mobile{

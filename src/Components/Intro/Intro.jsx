@@ -5,8 +5,8 @@ export default  function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="imgContainer">
-          <img src="assets/Seth.png" alt="Seth with Flamingos"></img>
+        <div className="imgContainer"> 
+          <img src="assets/Sether.png" className="picSeth"alt="Seth with Flamingos"></img>
         </div>
       </div>
       <div className="right">
@@ -15,7 +15,7 @@ export default  function Intro() {
         </div>
       </div>
     </div>
-  )
+)
 }
 
 
