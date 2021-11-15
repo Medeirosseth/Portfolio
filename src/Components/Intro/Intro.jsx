@@ -9,24 +9,34 @@ export default  function Intro() {
           <img src="assets/Sether.png" className="picSeth"alt="Seth with Flamingos"></img>
         </div>
       </div>
-      <div className="right">
-        <div className="wrapper">
-          <img src="assets/SethMedeiros2021.png" alt="Resume"></img>
+        <div className="right">
+          <div className="wrapper">
+            <img src="assets/SethMedeiros2021.png" alt="Resume"></img>
+          </div>
         </div>
-      </div>
     </div>
-)
+  )
 }
-
-
-
-
-
-// import React from 'react'
-// import "./Intro.scss"
-// // import { init } from 'ityped'
-// // import { useEffect, useRef } from 'react'
-
+      
+      
+      // <div className="container">
+      //   <div className="box">
+      //     <h1> Seth Medeiros<span>.</span></h1>
+      //   </div>
+      // </div>
+      // <div className="role">
+      //   <div className="block">
+      //     <p>Appetite for Construction</p>
+      //   </div>
+      // </div>
+      
+      
+      
+      // import React from 'react'
+      // import "./Intro.scss"
+      // // import { init } from 'ityped'
+      // // import { useEffect, useRef } from 'react'
+      
 // export default function Intro() {
 //   // const textRef = useRef();
 
