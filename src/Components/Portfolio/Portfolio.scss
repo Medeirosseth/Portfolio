@@ -79,11 +79,9 @@
     img{
       width: 500px;
       height: 500px;
-      border: 4px black solid;
       position: absolute;
-      clip: polygon(110px, 160px, 170px, 60px);
-      // margin-top: 10%;
-      // border: 4px black solid;
+      // clip: polygon(110px, 160px, 170px, 60px);
+      margin-top: 10%;
     }
     
   }
