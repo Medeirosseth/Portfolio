@@ -5,6 +5,11 @@
   .left{
     flex: 1;
     overflow: hidden;
+    object-fit: cover;
+
+    img {
+      width: 400px;
+    }
   }
   .right{
     flex: 1;
