@@ -18,7 +18,9 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-
+      <img src="assets/Devil.jpeg" className="sethPicture" alt="Seth with Flamingos"></img>
+      <img src="assets/Sether.png" className="picSeth" alt="Seth green background"/>
+      <img src="assets/Seth.png"  className="sethPic" alt="Resume"></img>
       </div>
       <div className="right">
         <h2>Contact</h2>

@@ -56,11 +56,26 @@
         opacity: 0;
         border-radius: 50%;
         transition: 2s ease;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
 
-        span{
-          color:  yellow;
+
+        /// About me section 
+        .fullName, .colon{
+          color:  rgb(57, 104, 180);
         }
+
+        .constant{
+          color: red
+        }
+
+        .bracket{
+          color: rgb(122, 21, 218)
+        }
+
+        .aboutMeItem {
+          color: rgb(90, 129, 255)
+        }
+
         .text{
           color: white;
           font-size: 30px;

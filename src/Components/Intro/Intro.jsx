@@ -6,13 +6,13 @@ export default  function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer"> 
-          <img src="assets/Sether.png" className="picSeth" alt="Seth with Flamingos"/>
+          <img src="assets/Sether.png" className="picSeth" alt="Seth green background"/>
           <div className="overlay">
             <div className="text"> 
-              <span> Seth Paul Medeiros </span><br />
-              skills: ['JavaScript', 'React.js'],<br />
-              status: 'Seeking employment',<br />
-              hobbies: ['Coding', 'Cooking', 'Guitar'],<br />
+              <span className="constant"> Const </span><span className="fullName">  Seth Paul Medeiros =  </span><br />
+              skills<span className="colon">:</span> <span className="bracket">[</span>'<span className="aboutMeItem">JavaScript</span>', '<span className="aboutMeItem">React.js</span>'<span className="bracket">]</span>,<br />
+              status<span className="colon">:</span>  '<span className="aboutMeItem">Seeking employment</span>',<br />
+              hobbies<span className="colon">:</span>  <span className="bracket">[</span>'<span className="aboutMeItem">Coding</span>', '<span className="aboutMeItem">Cooking</span>', '<span className="aboutMeItem">Guitar</span>'<span className="bracket">]</span>,<br />
               
             </div>
           </div>
