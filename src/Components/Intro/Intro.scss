@@ -1,4 +1,4 @@
-//@import '../../global.scss
+// @import '../../global.scss
 
 .intro{
   background-color: white;
@@ -58,6 +58,9 @@
         transition: 2s ease;
         background-color: black;
 
+        span{
+          color:  yellow;
+        }
         .text{
           color: white;
           font-size: 30px;

@@ -45,6 +45,14 @@ export default function Portfolio() {
               <h3>Image Finder</h3>
             </a>
           </div>
+          <div className="item">
+          <a href="https://github.com/Medeirosseth/Whos-that-Pokemon">
+            <img 
+              src="assets/Pokemon.png"
+              alt="Pokemon"></img>
+            <h3>Image Finder</h3>
+          </a>
+        </div>
         </div>
           <div className="right">
               <img src="assets/Seth.png" alt="Resume"></img>

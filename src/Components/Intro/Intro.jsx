@@ -9,7 +9,7 @@ export default  function Intro() {
           <img src="assets/Sether.png" className="picSeth" alt="Seth with Flamingos"/>
           <div className="overlay">
             <div className="text"> 
-              Seth Paul Medeiros<br />
+              <span> Seth Paul Medeiros </span><br />
               skills: ['JavaScript', 'React.js'],<br />
               status: 'Seeking employment',<br />
               hobbies: ['Coding', 'Cooking', 'Guitar'],<br />
