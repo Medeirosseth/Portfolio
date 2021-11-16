@@ -6,7 +6,16 @@ export default  function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer"> 
-          <img src="assets/Sether.png" className="picSeth"alt="Seth with Flamingos"></img>
+          <img src="assets/Sether.png" className="picSeth" alt="Seth with Flamingos"/>
+          <div className="overlay">
+            <div className="text"> 
+              Seth Paul Medeiros<br />
+              skills: ['JavaScript', 'React.js'],<br />
+              status: 'Seeking employment',<br />
+              hobbies: ['Coding', 'Cooking', 'Guitar'],<br />
+              
+            </div>
+          </div>
         </div>
       </div>
         <div className="right">
