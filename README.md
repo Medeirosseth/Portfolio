@@ -18,7 +18,8 @@ _Portfolio Page that showcases who I am, what I'm doing, and where I want to be!
  To visit my portfolio [Click Here](https://www.SethMedeiros.com/).
 ————————————————————————————————————————
 ![introcomponent](./Introsite.png)
-![introComponentWithNavBar](./IntroNav.png)
+![introComponentWithNavBar](./introNav.png)
+![introComponentWithNavBar](./projectsSite.png)
 ![ContactComponent](./contactsite.png)
 ————————————————————————————————————————
 
