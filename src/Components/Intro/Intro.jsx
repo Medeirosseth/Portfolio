@@ -9,10 +9,16 @@ export default  function Intro() {
           <img src="assets/Sether.png" className="picSeth" alt="Seth green background"/>
           <div className="overlay">
             <div className="text"> 
-              <span className="constant"> Const </span><span className="fullName">  Seth Paul Medeiros =  </span><br />
-              skills<span className="colon">:</span> <span className="bracket">[</span>'<span className="aboutMeItem">JavaScript</span>', '<span className="aboutMeItem">React.js</span>'<span className="bracket">]</span>,<br />
-              status<span className="colon">:</span>  '<span className="aboutMeItem">Seeking employment</span>',<br />
-              hobbies<span className="colon">:</span>  <span className="bracket">[</span>'<span className="aboutMeItem">Coding</span>', '<span className="aboutMeItem">Cooking</span>', '<span className="aboutMeItem">Guitar</span>'<span className="bracket">]</span>,<br />
+              <span className="constant"> Const </span><span className="fullName">  SethPaulMedeiros <span className="equal"> = </span> <span className="curlyBracket">&#123;</span> </span><br />
+              <span className="skills">skills</span>: <span className="bracket">[</span>'<span className="aboutMeItem">JavaScript</span>', '<span className="aboutMeItem">React.js</span>'<span className="bracket">]</span>,<br />
+              <span className="skills">status</span>: <span className="aboutMeItem">'Seeking employment</span>',<br />
+              <span className="skills">hobbies</span>: <span className="bracket">[</span>'<span className="aboutMeItem">Coding</span>', '<span className="aboutMeItem">Cooking</span>', '<span className="aboutMeItem">Guitar</span>'<span className="bracket">]</span>,<br />
+              <span className="skills pets">pets</span>:<span className="bracket"> &#123; </span> < br/>
+              <span className="skills">status</span>: <span className="constant">true</span> < br/>
+              <span className="skills">species</span>: '<span className="aboutMeItem">Dog</span>' < br/>
+              <span className="skills">name</span>: '<span className="aboutMeItem">Pizza Guy</span>' < br/>
+              <span className="bracket"> &#125; </span> < br/>
+              <span className="curlyBracket"> &#125;</span>
               
             </div>
           </div>
@@ -26,7 +32,18 @@ export default  function Intro() {
     </div>
   )
 }
-      
+
+const SethPaulMedeiros = {
+  skills: ['javaScript', 'React'],
+  status: 'Seeking employment',
+  hobbies: ['Coding', 'Cooking', 'Guitar'],
+  pets: {
+    status: true,
+    breed: 'dog',
+    name: 'Pizza Guy'
+  }
+}
+      console.log(SethPaulMedeiros)
       
       // <div className="container">
       //   <div className="box">

@@ -61,19 +61,32 @@
 
         /// About me section 
         .fullName, .colon{
-          color:  rgb(57, 104, 180);
+          color:  rgb(21, 157, 206);
         }
 
+        .curlyBracket{
+          color: rgb(255, 238, 46);
+        }
+
+        .skills{
+          color: rgb(127, 204, 232);
+        }
+        .pets{
+          text-align: left;
+        }
+        .equal{
+          color: white;
+        }
         .constant{
-          color: red
+          color: rgb(46, 134, 189)
         }
 
         .bracket{
-          color: rgb(122, 21, 218)
+          color: rgb(242, 102, 221)
         }
 
         .aboutMeItem {
-          color: rgb(90, 129, 255)
+          color: rgb(252, 161, 104)
         }
 
         .text{
