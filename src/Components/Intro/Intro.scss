@@ -134,16 +134,13 @@
       height: 300px;
       width: 300px;
     }
+
+    .right > .wrapper {
+      width: 300px;
+    }
+  
+
   }
 
-  .right > .wrapper {
-    margin-left: 200px;
-    width: 100%;
-    height: 60%;
-  }
-
-  .right > .wrapper > img{
-    object-fit: scale-down;
-  }
 }
   
