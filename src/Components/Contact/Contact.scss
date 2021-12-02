@@ -85,8 +85,52 @@
       }
     }
   }
+}
 
+@media (max-width: 500px) {
+  .contact {
+    flex-direction: column;
 
+    .left > .picSeth{
+    width: 180px;
+    margin-left: 220px;
+    }
 
+    .left > .sethPicture {
+      width: 200px;
+      height: 200px;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      object-fit: cover;
+      position: absolute;
+      z-index: 2;
+      margin-left: 25%;
+      margin-top: 12%;
+    }
 
+    .left > .sethPic {
+      position: absolute;
+      width: 150px;
+      z-index: 1;
+      margin-top: 40px;
+      margin-left: 5%;
+      // box-shadow: 10px 10px 5px grey;
+    }
+
+    #contactName {
+      width: 250px;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    #contactEmail {
+      width: 250px;
+      border: none;
+    }
+
+    #contactTextArea {
+      width: 260px;
+      border: none;
+      margin-bottom: px;
+    }
+  }
 }
