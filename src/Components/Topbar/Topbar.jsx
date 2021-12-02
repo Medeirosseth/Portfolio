@@ -9,10 +9,8 @@ export default function Topbar({menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">SPM</a>
           <div className="itemContainer">
-          </div>
-          <div className="itemContainer">
-            <Mail />
-            <span>MedeirosSeth@gmail.com</span>
+            <Mail className="topbarContact" />
+            <span className="topbarContact">MedeirosSeth@gmail.com</span>
           </div>
         </div>
         <div className="right">
