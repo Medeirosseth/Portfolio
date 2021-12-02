@@ -52,21 +52,21 @@
       justify-content: center;
       color: white;
       // position: relative;
-      // transition: all 2s ease;
+      transition: all 2s ease;
       cursor: pointer;
       object-fit: cover;
     
     
     .item >h3{
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      font-size: 20px;
-      color: rgb(0, 0, 0);
-      bottom: 68%;
-      text-align: center;
-      opacity: 0%;
-      z-index: 1;
+      // justify-content: center;
+      // align-items: center;
+      // position: relative;
+      // font-size: 20px;
+      // color: rgb(0, 0, 0);
+      // bottom: 68%;
+      // text-align: center;
+      // opacity: 0%;
+      // z-index: 1;
     }
     img {
       width: 100%;
@@ -92,6 +92,31 @@
   }
 }
 
+
+@media (max-width: 500px) {
+  .portfolio {
+    flex-direction: column;
+
+    .left{
+      border: none;
+    }
+    .left > .item {
+      width: 80px;
+      height: 80px;
+    }
+
+    .left > .item > h3{
+      display: none;
+    }
+
+
+    .right > img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+}
 
 // .navItems{
 //   display: flex;

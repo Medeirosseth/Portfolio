@@ -10,7 +10,6 @@ export default function Portfolio() {
               <img 
                 src="assets/epicouch.png"
                 alt="github logo"></img>
-              <h3>andChill</h3>
             </a>
           </div>
           <div className="item">
@@ -18,7 +17,6 @@ export default function Portfolio() {
               <img 
                 src="assets/Mcmonster.png"
                 alt="github logo"></img>
-              <h3>Artist Portfolio Website</h3>
             </a>
           </div>
           <div className="item">
@@ -26,7 +24,6 @@ export default function Portfolio() {
               <img 
                 src="assets/ReadyCheckGo.png"
                 alt="github logo"></img>
-              <h3>ReadyCheckGo</h3>
             </a>
           </div>
           <div className="item">
@@ -34,7 +31,6 @@ export default function Portfolio() {
               <img 
                 src="assets/SpaceX.png"
                 alt="github logo"></img>
-              <h3>Give Me SpaceX</h3>
             </a>
           </div>
           <div className="item">
@@ -42,7 +38,6 @@ export default function Portfolio() {
               <img 
                 src="assets/Picture-Viewer.png"
                 alt="github logo"></img>
-              <h3>Image Finder</h3>
             </a>
           </div>
           <div className="item">
@@ -50,7 +45,6 @@ export default function Portfolio() {
             <img 
               src="assets/Pokemon.png"
               alt="Pokemon"></img>
-            <h3>Image Finder</h3>
           </a>
         </div>
         </div>
