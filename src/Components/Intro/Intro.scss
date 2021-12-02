@@ -4,13 +4,6 @@
   background-color: white;
   display: flex;
 
-  // @include mobile{
-  //   flex-direction: column;
-  //   align-items: center;
-
-  // } 
-
-
   .left{
     flex: 0.5;
     overflow: hidden;
@@ -128,3 +121,29 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+
+    .left > .imgContainer{
+      align-items: flex-start;
+      margin-right: 50px;
+      margin-top: 32px;
+      height: 300px;
+      width: 300px;
+    }
+  }
+
+  .right > .wrapper {
+    margin-left: 200px;
+    width: 100%;
+    height: 60%;
+  }
+
+  .right > .wrapper > img{
+    object-fit: scale-down;
+  }
+}
+  
