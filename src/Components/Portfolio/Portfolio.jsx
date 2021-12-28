@@ -20,9 +20,9 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="item">
-            <a href="https://github.com/Medeirosseth/ReadyCheckGo">
+            <a href="https://www.thingsineedtogetdonetoday.com">
               <img 
-                src="assets/ReadyCheckGo.png"
+                src="assets/TINTGDT.png"
                 alt="github logo"></img>
             </a>
           </div>
